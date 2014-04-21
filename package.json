@@ -1,0 +1,40 @@
+{
+  "name": "autojs-contrib-toolkit",
+  "main": "./lib/toolkit",
+  "contributors": [
+    "Olle Bröms <olle.broms@ewebbyran.se> (https://twitter.com/ollebroms)"
+  ],
+  "devDependencies": {
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.10.2",
+    "grunt": "^0.4.4",
+    "grunt-release": "^0.7.0",
+    "should": "^3.3.1"
+  },
+  "description": "A toolkit",
+  "version": "0.0.0",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-mocha-test": "~0.10.2",
+    "grunt-release": "~0.7.0",
+    "should": "~3.3.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/autojs/autojs-contrib-toolkit.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autojs/autojs-contrib-toolkit/issues"
+  },
+  "homepage": "https://github.com/autojs/autojs-contrib-toolkit"
+}
